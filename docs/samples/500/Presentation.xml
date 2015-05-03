@@ -1,0 +1,39 @@
+<RVPresentationDocument  docType="0" drawingBackgroundColor="0" height="1080" lastDateUsed="2015-05-03T01:48:58" notes="" resourcesDirectory="" usedCount="0" versionNumber="500" width="1920">
+	<timeline duration="0" loop="0" selectedMediaTrackIndex="0" timeOffSet="0" unitOfMeasure="60">
+		<timeCues containerClass="NSMutableArray"/>
+		<mediaTracks containerClass="NSMutableArray"/>
+	</timeline>
+	<bibleReference containerClass="NSMutableDictionary"/>
+	<_-RVProTransitionObject-_transitionObject motionDuration="20" motionEnabled="0" motionSpeed="100" transitionDuration="1" transitionType="-1"/>
+	<groups containerClass="NSMutableArray">
+		<RVSlideGrouping color="0 0 0 0" name="" serialization-array-index="0" uuid="ACC453A4-6CF6-4CC7-A295-76C09359706F">
+			<slides containerClass="NSMutableArray">
+				<RVDisplaySlide UUID="E098FA5F-7FD1-4D55-B88F-92723C84D2DF" backgroundColor="0 0 0 1" chordChartPath="" drawingBackgroundColor="1" enabled="1" highlightColor="0 0 0 0" hotKey="" label="My Label" notes="" serialization-array-index="0" slideType="1" sort_index="0">
+					<cues containerClass="NSMutableArray"/>
+					<displayElements containerClass="NSMutableArray">
+						<RVTextElement RTFData="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ3XGNvY29hc3VicnRmNTcwClxjb2NvYXNjcmVlbmZvbnRzMXtcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEFyaWFsUm91bmRlZE1UQm9sZDt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHFjCgpcZjBcZnMyMDAgXGNmMSBcZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwClxvdXRsMFxzdHJva2V3aWR0aC0xNjAgXHN0cm9rZWMwIERvdWJsZS1jbGljayB0byBlZGl0fQ==" adjustsHeightToFit="0" bezelRadius="0" displayDelay="0" displayName="Default" drawingFill="0" drawingShadow="1" drawingStroke="0" fillColor="1 1 1 1" fromTemplate="1" locked="0" persistent="0" revealType="0" rotation="0" serialization-array-index="0" source="" typeID="0" verticalAlignment="0">
+							<_-RVRect3D-_position height="711.9141" width="6486.328" x="-2283.164" y="184.0429" z="0"/>
+							<_-D-_serializedShadow containerClass="NSMutableDictionary">
+								<NSMutableString serialization-dictionary-key="shadowOffset" serialization-native-value="{5, -5}"/>
+								<NSNumber serialization-dictionary-key="shadowBlurRadius" serialization-native-value="0"/>
+								<NSColor serialization-dictionary-key="shadowColor" serialization-native-value="0 0 0 0"/>
+							</_-D-_serializedShadow>
+							<stroke containerClass="NSMutableDictionary">
+								<NSColor serialization-dictionary-key="RVShapeElementStrokeColorKey" serialization-native-value="0 0 0 1"/>
+								<NSNumber serialization-dictionary-key="RVShapeElementStrokeWidthKey" serialization-native-value="1"/>
+							</stroke>
+						</RVTextElement>
+					</displayElements>
+					<_-RVProTransitionObject-_transitionObject motionDuration="20" motionEnabled="0" motionSpeed="100" transitionDuration="0.5" transitionType="-1"/>
+				</RVDisplaySlide>
+			</slides>
+		</RVSlideGrouping>
+	</groups>
+	<arrangements containerClass="NSMutableArray">
+		<RVSongArrangement color="0 0 0 0" name="New Arrangement" serialization-array-index="0" uuid="3D46B9DC-7857-41CD-8A63-559B05D05989">
+			<groupIDs containerClass="NSMutableArray">
+				<NSMutableString serialization-array-index="0" serialization-native-value="ACC453A4-6CF6-4CC7-A295-76C09359706F"/>
+			</groupIDs>
+		</RVSongArrangement>
+	</arrangements>
+</RVPresentationDocument>
