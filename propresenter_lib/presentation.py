@@ -1,5 +1,6 @@
 from lxml import etree, objectify
 from .propresenter import ProPresenterObject
+import logging
 
 
 class Presentation(ProPresenterObject):
@@ -13,6 +14,8 @@ class Presentation(ProPresenterObject):
 		super().__init__(**kwargs)
 
 	def generate_version_500(self):
+		logging.info('Building version 500 document structure')
+
 		presentation = objectify.Element("RVPresentationDocument")
 		presentation.attrib['CCLIArtistCredits'] = ""
 		presentation.attrib['CCLICopyrightInfo'] = ""
@@ -36,5 +39,7 @@ class Presentation(ProPresenterObject):
 		presentation.attrib['usedCount'] = "0"
 		presentation.attrib['versionNumber'] = str(self.version)
 		presentation.attrib['width'] = self.size_x
+
+		logging.info('Succeeded building version 500 document structure.  Returning.')
 
 		return presentation

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import logging
 
 from propresenter_lib.presentation import Presentation
 

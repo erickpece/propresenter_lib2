@@ -1,12 +1,17 @@
 from lxml import etree, objectify
+import logging
 
 
 class ProPresenterObject():
 
 	def __init__(self, version=500):
+		logging.info('Created ProPresenterObject: {}'.format(type(self)))
+
 		self.version = version
 
 	def xml(self):
+		logging.info('Attempting to generate object from XML structure.')
+
 		pro_object = None
 
 		if self.version == 500:
@@ -16,9 +21,13 @@ class ProPresenterObject():
 
 		objectify.deannotate(pro_object, pytype=True, xsi=True, xsi_nil=True, cleanup_namespaces=True)
 
+		logging.info('Succeeded generating object from XML structure.  Returning.')
+
 		return pro_object
 
 	def xml_string(self):
+		logging.info('Returning string version of XML object.')
+
 		return etree.tostring(self.xml())
 
 	def __str__(self):
